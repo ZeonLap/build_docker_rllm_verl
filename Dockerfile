@@ -17,4 +17,5 @@ RUN pip install playwright && \
     playwright install chromium && \
     playwright install-deps
 
+ENTRYPOINT []
 CMD ["/bin/bash"]
